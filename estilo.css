@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.76);
+}
+
+#container {
+  background-color: rgba(255, 255, 255, 0.747);
+  width: 650px;
+  height: 550px;
+  border: black solid 2px;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+#tituloCalculadora {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+}
+
+/*Calculo 1*/
+
+#tituloCalc1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#tituloCalc1:hover {
+  cursor: help;
+}
+
+#calc1 {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  margin-left: 10px;
+  align-items: baseline;
+}
+
+#numCalc1Porcent {
+  width: 42px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.txtCalc1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 10px;
+}
+
+#numCalc1Val {
+  width: 100px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+#botcalc1 {
+  padding: 3px;
+  background-color: tomato;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#botlimpar1 {
+  padding: 3px;
+  background-color: rgb(122, 216, 122);
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#res1 {
+  padding: 5px;
+  margin-left: 20px;
+  max-width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid 1px black;
+}
+
+/*Calculo 2*/
+
+#tituloCalc2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#tituloCalc2:hover {
+  cursor: help;
+}
+
+#calc2 {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  margin-left: 10px;
+  align-items: baseline;
+}
+
+#numCalc2Val1,
+#numCalc2Val2 {
+  width: 100px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.txtCalc2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 10px;
+}
+
+#botcalc2 {
+  padding: 3px;
+  background-color: tomato;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#botlimpar2 {
+  padding: 3px;
+  background-color: rgb(122, 216, 122);
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#res2 {
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid 1px black;
+}
+
+/*Calculo 3*/
+
+#tituloCalc3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#tituloCalc3:hover {
+  cursor: help;
+}
+
+#calc3 {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  margin-left: 13px;
+  align-items: baseline;
+}
+
+#numCalc3Valor {
+  width: 100px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#numCalc3Porcent {
+  width: 40px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.txtCalc3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 10px;
+}
+
+#botcalc3 {
+  padding: 3px;
+  background-color: tomato;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#botlimpar3 {
+  padding: 3px;
+  background-color: rgb(122, 216, 122);
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#res3 {
+  padding: 5px;
+  margin-left: 20px;
+  max-width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid 1px black;
+}
+
+/*Calculo 4*/
+
+#tituloCalc4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#tituloCalc4:hover {
+  cursor: help;
+}
+
+#calc4 {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  margin-left: 10px;
+  align-items: baseline;
+}
+
+#numCalc4Valor {
+  width: 100px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#numCalc4Porcent {
+  width: 40px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.txtCalc4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 10px;
+}
+
+#botcalc4 {
+  padding: 3px;
+  background-color: tomato;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#botlimpar4 {
+  padding: 3px;
+  background-color: rgb(122, 216, 122);
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#res4 {
+  padding: 5px;
+  margin-left: 20px;
+  max-width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid 1px black;
+}

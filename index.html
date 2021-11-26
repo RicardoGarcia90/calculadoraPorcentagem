@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Porcentagem</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <p id="tituloCalculadora">Calculadora de Porcentagem</p>
+
+      <!--Calculo 1-->
+      <p id="tituloCalc1" title="Quanto equivale x% de uma valor">
+        Porcentagem de um valor &#x1F6C8;
+      </p>
+      <div id="calc1">
+        <input type="number" id="numCalc1Porcent" />
+        <p class="txtCalc1">% de R$</p>
+        <input type="number" id="numCalc1Val" />
+        <button id="botcalc1" onclick="calcular1()">Calcular</button>
+        <button id="botlimpar1" onclick="limpar1()">Limpar</button>
+      </div>
+      <div id="res1">Resultado:</div>
+
+      <!--Calculo 2-->
+      <p id="tituloCalc2" title="Um valor representa quanto em % de outro">
+        Quanto um valor equivale em porcentagem &#x1F6C8;
+      </p>
+      <div id="calc2">
+        <p class="txtCalc2">R$</p>
+        <input type="number" id="numCalc2Val1" />
+        <p class="txtCalc2">de R$</p>
+        <input type="number" id="numCalc2Val2" />
+        <button id="botcalc2" onclick="calcular2()">Calcular</button>
+        <button id="botlimpar2" onclick="limpar2()">Limpar</button>
+      </div>
+      <div id="res2">Resultado:</div>
+
+      <!--Calculo 3-->
+      <p id="tituloCalc3" title="Valor quando somo x%">
+        Soma de Porcentagem &#x1F6C8;
+      </p>
+      <div id="calc3">
+        <p class="txtCalc3">R$</p>
+        <input type="number" id="numCalc3Valor" />
+        <p class="txtCalc3">+</p>
+        <input type="number" id="numCalc3Porcent" />
+        <p class="txtCalc3">%</p>
+        <button id="botcalc3" onclick="calcular3()">Calcular</button>
+        <button id="botlimpar3" onclick="limpar3()">Limpar</button>
+      </div>
+      <div id="res3">Resultado:</div>
+
+      <!--Calculo 4-->
+      <p id="tituloCalc4" title="Valor quando subtraio x%">
+        Subtração de Porcentagem &#x1F6C8;
+      </p>
+      <div id="calc4">
+        <p class="txtCalc4">R$</p>
+        <input type="number" id="numCalc4Valor" />
+        <p class="txtCalc4">-</p>
+        <input type="number" id="numCalc4Porcent" />
+        <p class="txtCalc4">%</p>
+        <button id="botcalc4" onclick="calcular4()">Calcular</button>
+        <button id="botlimpar4" onclick="limpar4()">Limpar</button>
+      </div>
+      <div id="res4">Resultado:</div>
+    </div>
+  </body>
+</html>
